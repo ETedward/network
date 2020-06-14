@@ -1,0 +1,14 @@
+.node{
+    fill: rgb(35, 72, 150);
+    stroke: #fff;
+    stroke-width: 2px;
+}
+.node text {
+    stroke:#333;
+    cursor:pointer;
+    }
+    
+.link {
+  stroke: #aaa;
+  stroke-width: 2px;
+}
