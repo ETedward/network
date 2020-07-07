@@ -733,7 +733,7 @@ var node = svg.selectAll('.node')
 var text = svg.selectAll('.text')
     .data(force.nodes())
     .enter().append("text")
-    .text("hello")
+    //.text("hello")
     .attr("y", function(d, i) {
         return 20;
     })
