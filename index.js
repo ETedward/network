@@ -733,7 +733,7 @@ var node = svg.selectAll('.node')
 var text = svg.selectAll('.text')
     .data(force.nodes())
     .enter().append("text")
-    //.text("hello")
+    .text("Tedros Meme Bots Network Visualization")
     .attr("y", function(d, i) {
         return 20;
     })
